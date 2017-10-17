@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore build 32
+buildx86/
+
 # C extensions
 *.so
 

@@ -41,3 +41,6 @@ class BaseAgent(object):
     self.steps += 1
     self.reward += obs.reward
     return actions.FunctionCall(0, [])
+	
+  def decode(self):
+	print self
