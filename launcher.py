@@ -4,7 +4,7 @@
 # 2. On the first line of the file, add the name of the map to launch.
 #    The map should be found in the "maps" directory. Example: "CollectMineralShards"
 # 3. On the second line of the file, add the name of the agent to run.
-#    The agent should be located in the "agents" directory. Example: "Teran.teran_base_agent"
+#    The agent should be located in the "agents" directory. Example: "Teran.scripted_agent.CollectMineralShards"
 # 4. Run launcher.py. Also Python should be in the path.
 
 import ctypes
