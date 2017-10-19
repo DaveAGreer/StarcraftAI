@@ -60,8 +60,7 @@ def main():
         mod = getattr(importlib.import_module(module_name), classname)
         agent.run_thread(mod, mapFile, False)
 
-        while (True):
-            is_admin()
+        os.system('pause')
     else:
         ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, sys.argv[0], None, 1)
 
